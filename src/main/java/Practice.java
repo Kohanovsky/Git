@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Practice {
     public static void main(String[] args) {
+        //some new text
            String first = new String("version");
           String second = new String(first);
 
