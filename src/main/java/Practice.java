@@ -2,7 +2,8 @@ import java.util.*;
 
 public class Practice {
     public static void main(String[] args) {
-        //some new text from server
+        //some new text from server updating
+        
            String first = new String("version");
           String second = new String(first);
 
