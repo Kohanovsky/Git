@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf7b7c0-9a33-443f-b933-f3c2525d2979" name="Default Changelist" comment="">
+    <list default="true" id="ccf7b7c0-9a33-443f-b933-f3c2525d2979" name="Default Changelist" comment="cli">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vc/BaseVcsProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vc/VcsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vc/VcsKind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vc/VcsProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vc/git/GitClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vc/git/GitProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vc/git/cli/GitTerminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vc/git/cli/GitTerminalProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Practice.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +50,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\practice projects\Git\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,21 +119,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Practice.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/main/java/vc/git/GitClient.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="terminal.invoke(&quot;git pull&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

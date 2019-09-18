@@ -1,8 +1,11 @@
+import vc.git.GitClient;
+import vc.git.cli.GitTerminal;
+
 import java.util.*;
 
 public class Practice {
     public static void main(String[] args) {
-        //some new text from server
+        //some new text from server -> developer branch
            String first = new String("version");
           String second = new String(first);
 
@@ -30,7 +33,7 @@ public class Practice {
 
         Node third = new Node("third");
 
-        root .addChild(first);
+        root.addChild(first);
         first.addChild(childFirst1);
         first.addChild(childFirst2);
 
@@ -44,7 +47,6 @@ public class Practice {
         root.addChild(third);
         return root;
     }
-
 
 
 }
