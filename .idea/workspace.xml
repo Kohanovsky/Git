@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf7b7c0-9a33-443f-b933-f3c2525d2979" name="Default Changelist" comment="cli">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vc/BaseVcsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vc/VcsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vc/VcsKind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vc/VcsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vc/git/GitClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vc/git/GitProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vc/git/cli/GitTerminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vc/git/cli/GitTerminalProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/file.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="developer" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -87,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
