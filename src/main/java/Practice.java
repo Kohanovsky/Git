@@ -6,7 +6,7 @@ public class Practice {
         //some new text from server updating
         
            String first = new String("version");
-          String second = new String(first);
+          String second = new String(first);erterf
 
         System.out.println(first == second);
         System.out.println(first.intern() == second.intern());
