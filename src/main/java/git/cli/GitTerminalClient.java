@@ -1,8 +1,8 @@
 package git.cli;
 
-import com.amazon.sct.appconversion.vc.git.GitClientBase;
-import com.amazon.sct.appconversion.vc.git.cli.command.CloneCommandBuilder;
-import com.amazon.sct.appconversion.vc.git.cli.command.PullCommandBuilder;
+import git.GitClientBase;
+import git.cli.command.CloneCommandBuilder;
+import git.cli.command.PullCommandBuilder;
 
 public class GitTerminalClient extends GitClientBase {
 

@@ -1,7 +1,7 @@
 package git.cli.command;
 
-import com.amazon.sct.appconversion.vc.git.GitProperties;
-import com.amazon.sct.appconversion.vc.git.cli.GitCommandBuilder;
+import git.GitProperties;
+import git.cli.GitCommandBuilder;
 
 /**
  * Command for pull project with use terminal.

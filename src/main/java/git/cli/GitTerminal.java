@@ -1,7 +1,5 @@
 package git.cli;
 
-import com.amazon.sct.logger.Logger;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,7 +23,6 @@ public class GitTerminal {
             return getResult(currentProcess);
 
         } catch (Exception e) {
-            Logger.GENERAL.writeError(e);
             return new TerminalInvokeResult(TerminalInvokeResult.Status.ERROR, e.getMessage());
 
         } finally {

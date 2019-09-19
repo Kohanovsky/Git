@@ -1,6 +1,6 @@
 package git;
 
-import com.amazon.sct.appconversion.vc.git.cli.TerminalInvokeResult;
+import git.cli.TerminalInvokeResult;
 
 public interface GitClient {
 
